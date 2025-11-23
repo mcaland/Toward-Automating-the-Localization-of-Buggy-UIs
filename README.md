@@ -13,7 +13,7 @@ This section contains the steps to set up the environment and reproduce the resu
 ## Setting up the Environment
 ### Using Docker
 There is a provided ```Dockerfile``` that will install the necessary dependencies to run this project. To build it, install Docker and do the following:
-1. Run ```docker build --tag "{YOUR CONTAINER NAME}"``` to create an image.
+1. Run ```docker build --tag "{YOUR CONTAINER NAME}" .``` to create an image.
 2. Run the image and make it interactable using ```docker run -i "{YOUR CONTAINER NAME}"```.
 3. Enter the image's terminal using ```docker exec -it "{YOUR CONTAINER NAME}" bash```.
 
