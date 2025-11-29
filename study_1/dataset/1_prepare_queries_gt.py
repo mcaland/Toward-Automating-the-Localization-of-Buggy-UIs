@@ -47,7 +47,7 @@ bugs_used_in_bl = [2, 8, 10, 11, 18, 19, 44, 45, 53, 54, 55, 56, 71, 76, 84, 87,
 
 def split_to_int_list(string_data):
     """
-    Splits a comma-separated string into a lsit of integers
+    Splits a comma-separated string into a list of integers
     (or strings if not numeric)
 
     Arguments:
