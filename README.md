@@ -24,7 +24,7 @@ If you do not wish to use the ```Dockerfile```, you can install the dependencies
 3. Install pip.
 4. Install the required packages from the requirements.txt file. Run the following command: ```pip install -r requirements.txt```
 ## Reproducing the Results of Buggy UI Localization (study_1) 
-1. Run ```run_cmnd.sh``` for reproducing the results with this command: ```sh run_cmnd.sh```. If you use Windows, please create a similar script. This script will run all the experiments of Study 1. The experiments can be run within one hour using this script. For running each experiment separately, please comment out the commands of other experiments.
+1. Run ```run_cmnd.sh``` for reproducing the results with this command: ```sh run_cmnd.sh```. For Windows, run ```run_powershell.ps1```. This script will run all the experiments of Study 1. The experiments can be run within one hour using this script. For running each experiment separately, please comment out the commands of other experiments.
 2. The results will be stored in the ```results``` directory where ```SL``` folder will contain screen localization results and ```CL``` will contain component localization results. The results are already provided (as CSV files). Rerunning the experiments will overwrite the results.
 3. The results summary will be saved in ```study_1/results/results_summary.xlsx``` file. The file is already provided. Rerunning the script will overwrite the results summary.
 ## Reproducing the Results of Buggy Code Localization (study_2)
